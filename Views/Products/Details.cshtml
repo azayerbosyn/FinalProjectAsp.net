@@ -1,0 +1,52 @@
+﻿@model WebApplication2core.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+    <h4>Soldier</h4>
+   
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <h5>Name</h5>
+            </th>
+            <th>
+                <h5>Surname</h5>
+            </th>
+            <th>
+                <h5>Year of admission</h5>
+            </th>
+            <th>
+                <h5>Category Id</h5>
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.content)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.price)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.category_id)
+                </td>
+                
+            </tr>
+
+    </tbody>
+</table>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
