@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erbosyn75/Desktop/asp/project/projectAspNet.csproj": {}
+    "/Users/erbosyn75/Desktop/asp/FinalProjectAsp.net/projectAspNet.csproj": {}
   },
   "projects": {
-    "/Users/erbosyn75/Desktop/asp/project/projectAspNet.csproj": {
+    "/Users/erbosyn75/Desktop/asp/FinalProjectAsp.net/projectAspNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erbosyn75/Desktop/asp/project/projectAspNet.csproj",
+        "projectUniqueName": "/Users/erbosyn75/Desktop/asp/FinalProjectAsp.net/projectAspNet.csproj",
         "projectName": "projectAspNet",
-        "projectPath": "/Users/erbosyn75/Desktop/asp/project/projectAspNet.csproj",
+        "projectPath": "/Users/erbosyn75/Desktop/asp/FinalProjectAsp.net/projectAspNet.csproj",
         "packagesPath": "/Users/erbosyn75/.nuget/packages/",
-        "outputPath": "/Users/erbosyn75/Desktop/asp/project/obj/",
+        "outputPath": "/Users/erbosyn75/Desktop/asp/FinalProjectAsp.net/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
