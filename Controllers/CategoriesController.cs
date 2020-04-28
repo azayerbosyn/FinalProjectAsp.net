@@ -13,8 +13,8 @@ namespace WebApplication2core.Controllers
     {
         private readonly ApplicationContext _context;
 
-        private ApplicationContext db = new ApplicationContext();//men kostym
-        
+        private ApplicationContext db = new ApplicationContext();
+
         public CategoriesController(ApplicationContext context)
         {
             _context = context;

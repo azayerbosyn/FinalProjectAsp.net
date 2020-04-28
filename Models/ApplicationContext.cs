@@ -20,12 +20,7 @@ namespace WebApplication2core.Models
             Database.EnsureCreated();
         }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
-        //{
-        //    optionsbuilder.UseMySql("server=localhost;port=3307;userid=root;password=;database=.NET_PROJECT;");
-
-        //}
-
+       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
         
             => optionsbuilder.UseMySql("server=localhost;port=3306;userid=root;password=supernatural091;database=soldier;");

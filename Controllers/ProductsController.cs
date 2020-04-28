@@ -16,7 +16,7 @@ namespace WebApplication2core.Controllers
         public ProductsController(ApplicationContext context)
         {
             _context = context;
-            //_context.Database.EnsureCreated();//ne pashet
+           
         }
 
         // GET: Products
